@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "entities": 1732544,
+  "candidate_pairs": 122066704,
+  "matched_pairs": 5819099,
+  "countries": {
+    "US": 663106,
+    "France": 259452,
+    "India": 809986
+  },
+  "all_target_ids_exist": true,
+  "all_matches_are_candidates": true
+}

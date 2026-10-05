@@ -1,0 +1,84 @@
+{
+  "test\\test_source1.tsv": {
+    "rows": 1732544,
+    "countries": {
+      "US": 663106,
+      "France": 259452,
+      "India": 809986
+    },
+    "empty_fields": {},
+    "bytes": 175022086,
+    "sha256": "3d4a32c54c2ca9c53fd7c2be105bf26f708f94c4d2f88eb370972a195665c2f5"
+  },
+  "test\\test_source2.tsv": {
+    "rows": 4887273,
+    "countries": {
+      "India": 2312565,
+      "France": 703378,
+      "US": 1871330
+    },
+    "empty_fields": {
+      "business_address": 129408
+    },
+    "bytes": 509456422,
+    "sha256": "79d906c7497af2ace70aa277f6e334a652094909de99bd6c57b53420b6a7b2dd"
+  },
+  "test\\test_source3.tsv": {
+    "rows": 5082316,
+    "countries": {
+      "India": 2405000,
+      "France": 731615,
+      "US": 1945701
+    },
+    "empty_fields": {
+      "business_address": 136098
+    },
+    "bytes": 506002772,
+    "sha256": "850942b11d2a4343486ed0834e28bce9f3b385f3fd497fd60ccf4ea3b8bda035"
+  },
+  "train\\train_ground_truth.tsv": {
+    "rows": 2206821,
+    "countries": {},
+    "empty_fields": {
+      "matched_entity_ids": 123247
+    },
+    "bytes": 127015583,
+    "sha256": "70bc1d8a16c667e0155c2105d0ab2ebe41d7e7a85d8a529e3ca81c6c3a5af037",
+    "singletons": 123247,
+    "positive_links": 7638365
+  },
+  "train\\train_source1.tsv": {
+    "rows": 2206821,
+    "countries": {
+      "US": 1323633,
+      "India": 883188
+    },
+    "empty_fields": {},
+    "bytes": 210069713,
+    "sha256": "591af0e1dfeb65cab71ea6ee8cb69df00f92d6ba6fa79e05746c938775d14973"
+  },
+  "train\\train_source2.tsv": {
+    "rows": 5034616,
+    "countries": {
+      "India": 2017799,
+      "US": 3016817
+    },
+    "empty_fields": {
+      "business_address": 168967
+    },
+    "bytes": 489301488,
+    "sha256": "6336c1a055eec79cf8a6d99fdc8d32a2e4d9dc2662e00963cb35d66b89ed09ed"
+  },
+  "train\\train_source3.tsv": {
+    "rows": 5285603,
+    "countries": {
+      "US": 3170056,
+      "India": 2115547
+    },
+    "empty_fields": {
+      "business_address": 175916
+    },
+    "bytes": 503705637,
+    "sha256": "67da22f5151898ff3006febd836c1a159e97ae95efa7257a5aff4fda685e58e9"
+  }
+}

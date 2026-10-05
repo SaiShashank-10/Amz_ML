@@ -1,0 +1,15 @@
+2026-09-27 12:47:12 test sorting index shard 0/256
+2026-09-27 12:47:12 test sorting index shard 64/256
+2026-09-27 12:47:12 test sorting index shard 128/256
+2026-09-27 12:47:13 test sorting index shard 192/256
+2026-09-27 12:47:13 test_index supplementary index complete
+2026-09-27 12:47:14 test sorting index shard 0/256
+2026-09-27 12:47:14 test sorting index shard 64/256
+2026-09-27 12:47:14 test sorting index shard 128/256
+2026-09-27 12:47:14 test sorting index shard 192/256
+2026-09-27 12:47:14 test_index supplementary index complete
+...........
+----------------------------------------------------------------------
+Ran 11 tests in 3.642s
+
+OK

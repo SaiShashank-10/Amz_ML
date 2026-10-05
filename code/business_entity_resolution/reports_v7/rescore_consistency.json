@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "references_checked": 10000,
+  "previously_v4_accepted_links_rescored": 6088,
+  "unexpected_rejections_at_original_threshold": 0,
+  "examples": []
+}

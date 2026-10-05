@@ -1,0 +1,547 @@
+{
+  "baseline": {
+    "macro_f0.5": 0.9729640360769869,
+    "approximate_95pct_ci": [
+      0.9718257787767355,
+      0.9741022933772383
+    ],
+    "micro_precision": 0.9907181339413628,
+    "micro_recall": 0.9451203079884505,
+    "tp": 98198,
+    "fp": 920,
+    "fn": 5702,
+    "entities": 30000,
+    "singletons": 1647,
+    "correct_singletons": 1584
+  },
+  "proposed": {
+    "macro_f0.5": 0.974406961160031,
+    "approximate_95pct_ci": [
+      0.9733043600596443,
+      0.9755095622604177
+    ],
+    "micro_precision": 0.9944038013451226,
+    "micro_recall": 0.9406256015399422,
+    "tp": 97731,
+    "fp": 550,
+    "fn": 6169,
+    "entities": 30000,
+    "singletons": 1647,
+    "correct_singletons": 1607
+  },
+  "policy": {
+    "source2_threshold": 0.65,
+    "source3_threshold": 0.75,
+    "macro_f0.5": 0.974406961160031
+  },
+  "paired_improvement": {
+    "mean": 0.0014429250830440248,
+    "approximate_95pct_ci": [
+      0.000954531324615345,
+      0.0019313188414727047
+    ]
+  },
+  "trials": [
+    {
+      "source2_threshold": 0.0,
+      "source3_threshold": 0.0,
+      "macro_f0.5": 0.9729640360769869
+    },
+    {
+      "source2_threshold": 0.0,
+      "source3_threshold": 0.1,
+      "macro_f0.5": 0.9730776050895024
+    },
+    {
+      "source2_threshold": 0.0,
+      "source3_threshold": 0.2,
+      "macro_f0.5": 0.973221016666602
+    },
+    {
+      "source2_threshold": 0.0,
+      "source3_threshold": 0.3,
+      "macro_f0.5": 0.973269766675116
+    },
+    {
+      "source2_threshold": 0.0,
+      "source3_threshold": 0.4,
+      "macro_f0.5": 0.9734915434849766
+    },
+    {
+      "source2_threshold": 0.0,
+      "source3_threshold": 0.5,
+      "macro_f0.5": 0.9735293157284144
+    },
+    {
+      "source2_threshold": 0.0,
+      "source3_threshold": 0.575,
+      "macro_f0.5": 0.9736193459054177
+    },
+    {
+      "source2_threshold": 0.0,
+      "source3_threshold": 0.65,
+      "macro_f0.5": 0.9736032489319211
+    },
+    {
+      "source2_threshold": 0.0,
+      "source3_threshold": 0.75,
+      "macro_f0.5": 0.9736382363024411
+    },
+    {
+      "source2_threshold": 0.0,
+      "source3_threshold": 0.85,
+      "macro_f0.5": 0.9732487277047275
+    },
+    {
+      "source2_threshold": 0.1,
+      "source3_threshold": 0.0,
+      "macro_f0.5": 0.9730032371976818
+    },
+    {
+      "source2_threshold": 0.1,
+      "source3_threshold": 0.1,
+      "macro_f0.5": 0.973116806210197
+    },
+    {
+      "source2_threshold": 0.1,
+      "source3_threshold": 0.2,
+      "macro_f0.5": 0.9732602177872968
+    },
+    {
+      "source2_threshold": 0.1,
+      "source3_threshold": 0.3,
+      "macro_f0.5": 0.9733089677958107
+    },
+    {
+      "source2_threshold": 0.1,
+      "source3_threshold": 0.4,
+      "macro_f0.5": 0.9735307446056712
+    },
+    {
+      "source2_threshold": 0.1,
+      "source3_threshold": 0.5,
+      "macro_f0.5": 0.9735685168491091
+    },
+    {
+      "source2_threshold": 0.1,
+      "source3_threshold": 0.575,
+      "macro_f0.5": 0.9736585470261122
+    },
+    {
+      "source2_threshold": 0.1,
+      "source3_threshold": 0.65,
+      "macro_f0.5": 0.9736424500526158
+    },
+    {
+      "source2_threshold": 0.1,
+      "source3_threshold": 0.75,
+      "macro_f0.5": 0.9736774374231356
+    },
+    {
+      "source2_threshold": 0.1,
+      "source3_threshold": 0.85,
+      "macro_f0.5": 0.973287928825422
+    },
+    {
+      "source2_threshold": 0.2,
+      "source3_threshold": 0.0,
+      "macro_f0.5": 0.9731184338515642
+    },
+    {
+      "source2_threshold": 0.2,
+      "source3_threshold": 0.1,
+      "macro_f0.5": 0.9732320028640795
+    },
+    {
+      "source2_threshold": 0.2,
+      "source3_threshold": 0.2,
+      "macro_f0.5": 0.9733754144411791
+    },
+    {
+      "source2_threshold": 0.2,
+      "source3_threshold": 0.3,
+      "macro_f0.5": 0.973424164449693
+    },
+    {
+      "source2_threshold": 0.2,
+      "source3_threshold": 0.4,
+      "macro_f0.5": 0.9736459412595537
+    },
+    {
+      "source2_threshold": 0.2,
+      "source3_threshold": 0.5,
+      "macro_f0.5": 0.9736837135029915
+    },
+    {
+      "source2_threshold": 0.2,
+      "source3_threshold": 0.575,
+      "macro_f0.5": 0.9737737436799946
+    },
+    {
+      "source2_threshold": 0.2,
+      "source3_threshold": 0.65,
+      "macro_f0.5": 0.973757646706498
+    },
+    {
+      "source2_threshold": 0.2,
+      "source3_threshold": 0.75,
+      "macro_f0.5": 0.9737926340770182
+    },
+    {
+      "source2_threshold": 0.2,
+      "source3_threshold": 0.85,
+      "macro_f0.5": 0.9734031254793045
+    },
+    {
+      "source2_threshold": 0.3,
+      "source3_threshold": 0.0,
+      "macro_f0.5": 0.9732550156523609
+    },
+    {
+      "source2_threshold": 0.3,
+      "source3_threshold": 0.1,
+      "macro_f0.5": 0.9733685846648762
+    },
+    {
+      "source2_threshold": 0.3,
+      "source3_threshold": 0.2,
+      "macro_f0.5": 0.9735119962419759
+    },
+    {
+      "source2_threshold": 0.3,
+      "source3_threshold": 0.3,
+      "macro_f0.5": 0.9735607462504899
+    },
+    {
+      "source2_threshold": 0.3,
+      "source3_threshold": 0.4,
+      "macro_f0.5": 0.9737825230603506
+    },
+    {
+      "source2_threshold": 0.3,
+      "source3_threshold": 0.5,
+      "macro_f0.5": 0.9738197925385798
+    },
+    {
+      "source2_threshold": 0.3,
+      "source3_threshold": 0.575,
+      "macro_f0.5": 0.9739098227155827
+    },
+    {
+      "source2_threshold": 0.3,
+      "source3_threshold": 0.65,
+      "macro_f0.5": 0.9738937257420863
+    },
+    {
+      "source2_threshold": 0.3,
+      "source3_threshold": 0.75,
+      "macro_f0.5": 0.9739272766405817
+    },
+    {
+      "source2_threshold": 0.3,
+      "source3_threshold": 0.85,
+      "macro_f0.5": 0.973536991042091
+    },
+    {
+      "source2_threshold": 0.4,
+      "source3_threshold": 0.0,
+      "macro_f0.5": 0.973432957793523
+    },
+    {
+      "source2_threshold": 0.4,
+      "source3_threshold": 0.1,
+      "macro_f0.5": 0.9735465268060383
+    },
+    {
+      "source2_threshold": 0.4,
+      "source3_threshold": 0.2,
+      "macro_f0.5": 0.9736899383831379
+    },
+    {
+      "source2_threshold": 0.4,
+      "source3_threshold": 0.3,
+      "macro_f0.5": 0.9737386883916518
+    },
+    {
+      "source2_threshold": 0.4,
+      "source3_threshold": 0.4,
+      "macro_f0.5": 0.9739604652015125
+    },
+    {
+      "source2_threshold": 0.4,
+      "source3_threshold": 0.5,
+      "macro_f0.5": 0.9739977346797418
+    },
+    {
+      "source2_threshold": 0.4,
+      "source3_threshold": 0.575,
+      "macro_f0.5": 0.9740877648567448
+    },
+    {
+      "source2_threshold": 0.4,
+      "source3_threshold": 0.65,
+      "macro_f0.5": 0.9740716678832483
+    },
+    {
+      "source2_threshold": 0.4,
+      "source3_threshold": 0.75,
+      "macro_f0.5": 0.9741052187817436
+    },
+    {
+      "source2_threshold": 0.4,
+      "source3_threshold": 0.85,
+      "macro_f0.5": 0.973714933183253
+    },
+    {
+      "source2_threshold": 0.5,
+      "source3_threshold": 0.0,
+      "macro_f0.5": 0.973581959390257
+    },
+    {
+      "source2_threshold": 0.5,
+      "source3_threshold": 0.1,
+      "macro_f0.5": 0.9736955284027725
+    },
+    {
+      "source2_threshold": 0.5,
+      "source3_threshold": 0.2,
+      "macro_f0.5": 0.973838939979872
+    },
+    {
+      "source2_threshold": 0.5,
+      "source3_threshold": 0.3,
+      "macro_f0.5": 0.973887689988386
+    },
+    {
+      "source2_threshold": 0.5,
+      "source3_threshold": 0.4,
+      "macro_f0.5": 0.9741094667982467
+    },
+    {
+      "source2_threshold": 0.5,
+      "source3_threshold": 0.5,
+      "macro_f0.5": 0.9741467362764759
+    },
+    {
+      "source2_threshold": 0.5,
+      "source3_threshold": 0.575,
+      "macro_f0.5": 0.9742367664534789
+    },
+    {
+      "source2_threshold": 0.5,
+      "source3_threshold": 0.65,
+      "macro_f0.5": 0.9742206694799824
+    },
+    {
+      "source2_threshold": 0.5,
+      "source3_threshold": 0.75,
+      "macro_f0.5": 0.9742528314895889
+    },
+    {
+      "source2_threshold": 0.5,
+      "source3_threshold": 0.85,
+      "macro_f0.5": 0.9738625458910983
+    },
+    {
+      "source2_threshold": 0.575,
+      "source3_threshold": 0.0,
+      "macro_f0.5": 0.9736993404652537
+    },
+    {
+      "source2_threshold": 0.575,
+      "source3_threshold": 0.1,
+      "macro_f0.5": 0.9738129094777691
+    },
+    {
+      "source2_threshold": 0.575,
+      "source3_threshold": 0.2,
+      "macro_f0.5": 0.9739566729905149
+    },
+    {
+      "source2_threshold": 0.575,
+      "source3_threshold": 0.3,
+      "macro_f0.5": 0.9740054229990287
+    },
+    {
+      "source2_threshold": 0.575,
+      "source3_threshold": 0.4,
+      "macro_f0.5": 0.9742271998088894
+    },
+    {
+      "source2_threshold": 0.575,
+      "source3_threshold": 0.5,
+      "macro_f0.5": 0.9742669101719396
+    },
+    {
+      "source2_threshold": 0.575,
+      "source3_threshold": 0.575,
+      "macro_f0.5": 0.9743569403489424
+    },
+    {
+      "source2_threshold": 0.575,
+      "source3_threshold": 0.65,
+      "macro_f0.5": 0.9743408433754459
+    },
+    {
+      "source2_threshold": 0.575,
+      "source3_threshold": 0.75,
+      "macro_f0.5": 0.9743726797603847
+    },
+    {
+      "source2_threshold": 0.575,
+      "source3_threshold": 0.85,
+      "macro_f0.5": 0.9739823941618939
+    },
+    {
+      "source2_threshold": 0.65,
+      "source3_threshold": 0.0,
+      "macro_f0.5": 0.9737336218649001
+    },
+    {
+      "source2_threshold": 0.65,
+      "source3_threshold": 0.1,
+      "macro_f0.5": 0.9738471908774157
+    },
+    {
+      "source2_threshold": 0.65,
+      "source3_threshold": 0.2,
+      "macro_f0.5": 0.9739909543901611
+    },
+    {
+      "source2_threshold": 0.65,
+      "source3_threshold": 0.3,
+      "macro_f0.5": 0.9740397043986753
+    },
+    {
+      "source2_threshold": 0.65,
+      "source3_threshold": 0.4,
+      "macro_f0.5": 0.9742614812085358
+    },
+    {
+      "source2_threshold": 0.65,
+      "source3_threshold": 0.5,
+      "macro_f0.5": 0.9743011915715858
+    },
+    {
+      "source2_threshold": 0.65,
+      "source3_threshold": 0.575,
+      "macro_f0.5": 0.9743912217485888
+    },
+    {
+      "source2_threshold": 0.65,
+      "source3_threshold": 0.65,
+      "macro_f0.5": 0.9743751247750924
+    },
+    {
+      "source2_threshold": 0.65,
+      "source3_threshold": 0.75,
+      "macro_f0.5": 0.974406961160031
+    },
+    {
+      "source2_threshold": 0.65,
+      "source3_threshold": 0.85,
+      "macro_f0.5": 0.974009534989694
+    },
+    {
+      "source2_threshold": 0.75,
+      "source3_threshold": 0.0,
+      "macro_f0.5": 0.9736477481582391
+    },
+    {
+      "source2_threshold": 0.75,
+      "source3_threshold": 0.1,
+      "macro_f0.5": 0.9737613171707543
+    },
+    {
+      "source2_threshold": 0.75,
+      "source3_threshold": 0.2,
+      "macro_f0.5": 0.9739050806835001
+    },
+    {
+      "source2_threshold": 0.75,
+      "source3_threshold": 0.3,
+      "macro_f0.5": 0.973953830692014
+    },
+    {
+      "source2_threshold": 0.75,
+      "source3_threshold": 0.4,
+      "macro_f0.5": 0.9741771948034619
+    },
+    {
+      "source2_threshold": 0.75,
+      "source3_threshold": 0.5,
+      "macro_f0.5": 0.9742169051665119
+    },
+    {
+      "source2_threshold": 0.75,
+      "source3_threshold": 0.575,
+      "macro_f0.5": 0.974306935343515
+    },
+    {
+      "source2_threshold": 0.75,
+      "source3_threshold": 0.65,
+      "macro_f0.5": 0.9742908383700186
+    },
+    {
+      "source2_threshold": 0.75,
+      "source3_threshold": 0.75,
+      "macro_f0.5": 0.9743230435747341
+    },
+    {
+      "source2_threshold": 0.75,
+      "source3_threshold": 0.85,
+      "macro_f0.5": 0.9739005173002527
+    },
+    {
+      "source2_threshold": 0.85,
+      "source3_threshold": 0.0,
+      "macro_f0.5": 0.9732133807139798
+    },
+    {
+      "source2_threshold": 0.85,
+      "source3_threshold": 0.1,
+      "macro_f0.5": 0.973326949726495
+    },
+    {
+      "source2_threshold": 0.85,
+      "source3_threshold": 0.2,
+      "macro_f0.5": 0.9734707132392406
+    },
+    {
+      "source2_threshold": 0.85,
+      "source3_threshold": 0.3,
+      "macro_f0.5": 0.9735194632477546
+    },
+    {
+      "source2_threshold": 0.85,
+      "source3_threshold": 0.4,
+      "macro_f0.5": 0.9737428273592027
+    },
+    {
+      "source2_threshold": 0.85,
+      "source3_threshold": 0.5,
+      "macro_f0.5": 0.973782164514449
+    },
+    {
+      "source2_threshold": 0.85,
+      "source3_threshold": 0.575,
+      "macro_f0.5": 0.9738725109902204
+    },
+    {
+      "source2_threshold": 0.85,
+      "source3_threshold": 0.65,
+      "macro_f0.5": 0.9738536362389462
+    },
+    {
+      "source2_threshold": 0.85,
+      "source3_threshold": 0.75,
+      "macro_f0.5": 0.9739485787063987
+    },
+    {
+      "source2_threshold": 0.85,
+      "source3_threshold": 0.85,
+      "macro_f0.5": 0.9735139088803804
+    }
+  ],
+  "note": "Development thresholds; not independent assessment."
+}

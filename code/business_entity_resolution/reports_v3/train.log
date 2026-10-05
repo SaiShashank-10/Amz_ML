@@ -1,0 +1,24 @@
+2026-09-26 16:44:38 Training enhanced model: 600 trees, 31 leaves
+C:\Users\SAI SHASHANK\AppData\Roaming\Python\Python313\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[100]	valid_0's binary_logloss: 0.013422
+[200]	valid_0's binary_logloss: 0.00864697
+[300]	valid_0's binary_logloss: 0.0073742
+[400]	valid_0's binary_logloss: 0.00676264
+[500]	valid_0's binary_logloss: 0.00645249
+[600]	valid_0's binary_logloss: 0.00626309
+2026-09-26 16:46:54 Training enhanced model: 800 trees, 63 leaves
+C:\Users\SAI SHASHANK\AppData\Roaming\Python\Python313\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[100]	valid_0's binary_logloss: 0.0116786
+[200]	valid_0's binary_logloss: 0.00746362
+[300]	valid_0's binary_logloss: 0.00645527
+[400]	valid_0's binary_logloss: 0.00609752
+[500]	valid_0's binary_logloss: 0.00590309
+[600]	valid_0's binary_logloss: 0.00578796
+[700]	valid_0's binary_logloss: 0.00570953
+[800]	valid_0's binary_logloss: 0.00564513
+2026-09-26 16:50:28 Evaluating original pipeline on the same fresh holdout
+2026-09-26 16:51:57 Fresh held-out assessment: {"macro_f0.5": 0.9639705533075321, "approximate_95pct_ci": [0.961517599685207, 0.9664235069298572], "micro_precision": 0.9892248014284835, "micro_recall": 0.9319566100121817, "tp": 32132, "fp": 350, "fn": 2346, "entities": 10000, "singletons": 568, "correct_singletons": 532}
+2026-09-26 16:51:57 Refitting enhanced model on full supervised sample
+2026-09-26 16:56:27 Enhanced final model saved

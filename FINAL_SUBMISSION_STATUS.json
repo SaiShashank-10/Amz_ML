@@ -1,0 +1,13 @@
+{
+  "best_reported_public_score": 0.962,
+  "selected_final_version": "v7 (selected by participant)",
+  "v7_reported_public_score": null,
+  "recommended_matching_file": "C:\\Shashank\\Amz_ML\\output_v7\\matching_results.tsv",
+  "recommended_package": "C:\\Shashank\\Amz_ML\\Chakravyuh_submission.zip",
+  "target_0_992_achieved": false,
+  "v5": "Stopped: 30,000-reference paired confidence interval crossed zero.",
+  "v6": "Stopped: development precision-rule gain was tiny and uncertainty interval crossed zero; no new submission generated.",
+  "team": "Chakravyuh",
+  "package_audit": "C:\\Shashank\\Amz_ML\\final_submission_metadata\\package_audit.json",
+  "pending": "Upload the final ZIP to the organizer. The v7 leaderboard score has not yet been supplied; ranking is organizer-controlled."
+}

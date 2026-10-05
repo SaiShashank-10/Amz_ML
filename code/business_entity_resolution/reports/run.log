@@ -1,0 +1,51 @@
+2026-09-26 04:17:39 Training features 200/30,000; pairs 13,664
+2026-09-26 04:17:52 Training features 2,200/30,000; pairs 146,379
+2026-09-26 04:18:07 Training features 4,200/30,000; pairs 280,212
+2026-09-26 04:18:23 Training features 6,200/30,000; pairs 410,385
+2026-09-26 04:18:36 Training features 8,200/30,000; pairs 540,928
+2026-09-26 04:18:48 Training features 10,200/30,000; pairs 675,643
+2026-09-26 04:18:58 Training features 12,200/30,000; pairs 807,408
+2026-09-26 04:19:07 Training features 14,200/30,000; pairs 938,203
+2026-09-26 04:19:16 Training features 16,200/30,000; pairs 1,070,170
+2026-09-26 04:19:25 Training features 18,200/30,000; pairs 1,201,711
+2026-09-26 04:19:34 Training features 20,200/30,000; pairs 1,336,096
+2026-09-26 04:19:43 Training features 22,200/30,000; pairs 1,467,490
+2026-09-26 04:19:52 Training features 24,200/30,000; pairs 1,597,923
+2026-09-26 04:20:01 Training features 26,200/30,000; pairs 1,731,971
+2026-09-26 04:20:10 Training features 28,200/30,000; pairs 1,863,684
+2026-09-26 04:20:20 Training features saved
+2026-09-26 04:20:22 Actual supervised training: 1,185,836 pairs; 59,629 positive pairs
+C:\Users\SAI SHASHANK\AppData\Roaming\Python\Python313\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[50]	valid_0's binary_logloss: 0.0304959
+[100]	valid_0's binary_logloss: 0.020902
+[150]	valid_0's binary_logloss: 0.0186402
+[200]	valid_0's binary_logloss: 0.0177236
+[250]	valid_0's binary_logloss: 0.0173035
+[300]	valid_0's binary_logloss: 0.0169718
+[350]	valid_0's binary_logloss: 0.0167015
+[400]	valid_0's binary_logloss: 0.0164712
+[450]	valid_0's binary_logloss: 0.0162919
+C:\Users\SAI SHASHANK\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\SAI SHASHANK\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-09-26 04:20:47 Held-out assessment: {"macro_f0.5": 0.92746227853751, "approximate_95pct_ci": [0.9233055882618908, 0.9316189688131291], "micro_precision": 0.9717359091158553, "micro_recall": 0.8563551944283226, "tp": 17706, "fp": 515, "fn": 2970, "entities": 6000, "singletons": 324, "correct_singletons": 307}
+2026-09-26 04:20:47 Country-transfer diagnostic: withholding India from model fitting
+C:\Users\SAI SHASHANK\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\SAI SHASHANK\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-09-26 04:20:59 Country-transfer result: {"macro_f0.5": 0.79300305146005, "approximate_95pct_ci": [0.7816833923844999, 0.8043227105356001], "micro_precision": 0.8930367210117325, "micro_recall": 0.7084491720053185, "tp": 5861, "fp": 702, "fn": 2412, "entities": 2390, "singletons": 127, "correct_singletons": 96, "threshold": 0.6249999999999999}
+2026-09-26 04:20:59 Country-transfer diagnostic: withholding US from model fitting
+C:\Users\SAI SHASHANK\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\SAI SHASHANK\AppData\Roaming\Python\Python313\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-09-26 04:21:08 Country-transfer result: {"macro_f0.5": 0.9085363350617103, "approximate_95pct_ci": [0.9026844561586831, 0.9143882139647375], "micro_precision": 0.9304332962994616, "micro_recall": 0.8777715068934935, "tp": 10887, "fp": 814, "fn": 1516, "entities": 3610, "singletons": 197, "correct_singletons": 157, "threshold": 0.6999999999999998}
+2026-09-26 04:21:08 Refitting final model on all sampled training entities
+2026-09-26 04:22:25 Test inference: 5,000 reference entities complete
+2026-09-26 04:22:40 Test inference: 10,000 reference entities complete
+2026-09-26 04:23:00 Test inference: 15,000 reference entities complete
+2026-09-26 04:23:13 Test inference: 20,000 reference entities complete
+2026-09-26 04:23:32 Test inference: 25,000 reference entities complete

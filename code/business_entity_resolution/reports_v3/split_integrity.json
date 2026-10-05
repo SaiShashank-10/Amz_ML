@@ -1,0 +1,10 @@
+{
+  "counts": {
+    "fit": 40000,
+    "tune": 10000,
+    "audit": 10000
+  },
+  "overlap_with_previous_run": 0,
+  "pairwise_split_overlap": 0,
+  "audit_id_sha256": "18e3b668084906977422aaa8f5d8162cd7a90a86006801d19ad20dede6a25554"
+}

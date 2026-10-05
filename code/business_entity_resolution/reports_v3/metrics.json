@@ -1,0 +1,102 @@
+{
+  "version": 3,
+  "seed": 20260927,
+  "threshold": 0.6250000000000003,
+  "trees": 800,
+  "leaves": 63,
+  "features": 120,
+  "sample_entities": 60000,
+  "training_pairs": 4830066,
+  "trials": [
+    {
+      "trees": 600,
+      "leaves": 31,
+      "macro_f0.5": 0.9594533777815677,
+      "threshold": 0.7000000000000004
+    },
+    {
+      "trees": 800,
+      "leaves": 63,
+      "macro_f0.5": 0.96216652665313,
+      "threshold": 0.6250000000000003
+    }
+  ],
+  "held_out": {
+    "macro_f0.5": 0.9639705533075321,
+    "approximate_95pct_ci": [
+      0.961517599685207,
+      0.9664235069298572
+    ],
+    "micro_precision": 0.9892248014284835,
+    "micro_recall": 0.9319566100121817,
+    "tp": 32132,
+    "fp": 350,
+    "fn": 2346,
+    "entities": 10000,
+    "singletons": 568,
+    "correct_singletons": 532
+  },
+  "blocking_ceiling": {
+    "macro_f0.5": 0.9873266699052569,
+    "approximate_95pct_ci": [
+      0.9858634467883916,
+      0.9887898930221222
+    ],
+    "micro_precision": 1.0,
+    "micro_recall": 0.9681826092000696,
+    "tp": 33381,
+    "fp": 0,
+    "fn": 1097,
+    "entities": 10000,
+    "singletons": 568,
+    "correct_singletons": 568
+  },
+  "candidate_recall": 0.9672361304765259,
+  "held_out_by_country": {
+    "India": {
+      "macro_f0.5": 0.9447991553767462,
+      "approximate_95pct_ci": [
+        0.9399504855523948,
+        0.9496478252010976
+      ],
+      "micro_precision": 0.9852638250673428,
+      "micro_recall": 0.8968053652556429,
+      "tp": 12436,
+      "fp": 186,
+      "fn": 1431,
+      "entities": 4017,
+      "singletons": 222,
+      "correct_singletons": 204
+    },
+    "US": {
+      "macro_f0.5": 0.9768422740977659,
+      "approximate_95pct_ci": [
+        0.9744033410429226,
+        0.9792812071526092
+      ],
+      "micro_precision": 0.991742195367573,
+      "micro_recall": 0.9556062296831789,
+      "tp": 19696,
+      "fp": 164,
+      "fn": 915,
+      "entities": 5983,
+      "singletons": 346,
+      "correct_singletons": 328
+    }
+  },
+  "original_on_same_holdout": {
+    "macro_f0.5": 0.9284378464747779,
+    "approximate_95pct_ci": [
+      0.9251371493675443,
+      0.9317385435820115
+    ],
+    "micro_precision": 0.9756915890924641,
+    "micro_recall": 0.8603167237078717,
+    "tp": 29662,
+    "fp": 739,
+    "fn": 4816,
+    "entities": 10000,
+    "singletons": 568,
+    "correct_singletons": 523
+  }
+}

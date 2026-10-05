@@ -1,0 +1,4 @@
+# No LFS needed: the largest included file is approximately 17 MB.
+* text=auto
+# Preserve model, requirements and license file bytes.
+*.txt -text

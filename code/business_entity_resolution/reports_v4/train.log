@@ -1,0 +1,30 @@
+2026-09-27 13:47:58 Training enhanced model: 800 trees, 63 leaves
+C:\Users\SAI SHASHANK\AppData\Roaming\Python\Python313\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[100]	valid_0's binary_logloss: 0.00674913
+[200]	valid_0's binary_logloss: 0.00418126
+[300]	valid_0's binary_logloss: 0.00355951
+[400]	valid_0's binary_logloss: 0.0033405
+[500]	valid_0's binary_logloss: 0.00324103
+[600]	valid_0's binary_logloss: 0.003174
+[700]	valid_0's binary_logloss: 0.00312029
+[800]	valid_0's binary_logloss: 0.00308029
+2026-09-27 13:54:36 Training enhanced model: 1200 trees, 127 leaves
+C:\Users\SAI SHASHANK\AppData\Roaming\Python\Python313\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[100]	valid_0's binary_logloss: 0.0060972
+[200]	valid_0's binary_logloss: 0.00375464
+[300]	valid_0's binary_logloss: 0.00328404
+[400]	valid_0's binary_logloss: 0.00312452
+[500]	valid_0's binary_logloss: 0.00304587
+[600]	valid_0's binary_logloss: 0.0030089
+[700]	valid_0's binary_logloss: 0.00298138
+[800]	valid_0's binary_logloss: 0.00296372
+[900]	valid_0's binary_logloss: 0.00295385
+[1000]	valid_0's binary_logloss: 0.00293662
+[1100]	valid_0's binary_logloss: 0.00292879
+[1200]	valid_0's binary_logloss: 0.00292863
+2026-09-27 14:06:13 Evaluating original pipeline on the same fresh holdout
+2026-09-27 14:13:06 Fresh held-out assessment: {"macro_f0.5": 0.9746779682130363, "approximate_95pct_ci": [0.9727902795265928, 0.9765656568994798], "micro_precision": 0.9900102613629504, "micro_recall": 0.9496829854375959, "tp": 32803, "fp": 331, "fn": 1738, "entities": 10000, "singletons": 558, "correct_singletons": 529}
+2026-09-27 14:13:06 Refitting enhanced model on full supervised sample
+2026-09-27 14:27:29 Enhanced final model saved

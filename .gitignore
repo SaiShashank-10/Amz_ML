@@ -1,0 +1,25 @@
+# Publish only the runnable project and its documentation/evidence.
+# All other root artifacts, outputs, ZIPs and local helpers stay on disk.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/LICENSE
+!/Documentation_template.md
+!/REQUIREMENTS_AUDIT.md
+!/FINAL_SUBMISSION_STATUS.json
+!/code/
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local credentials and editor state
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
